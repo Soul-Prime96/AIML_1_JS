@@ -41,3 +41,53 @@
 
 
 
+// function myFunction(){
+//     alert("Hello World!");
+// }
+
+
+// function sayHello(name,age){
+//     document.write(name+"is"+age+"year old.");
+// }
+
+
+
+// var res=mull(12,30);
+// function mull(x,y){
+//     return x*y;
+// }
+// document.write(res);
+
+
+
+// var add2=(a,b)=>{
+//     console.log(a+b);
+// };
+// add2(102,20);
+
+// var add3=(a,b)=>console.log(a+b);
+// add3(30,20);
+
+
+// var person={
+//     name:"John Mac",
+//     age:"30",
+//     isMarried:true,
+//     address:{
+//         street:"Vinay nagar",
+//         flatNo:201
+//     }
+// };
+// // console.log(person);
+// console.log(person["age"]);
+
+var per=new Object();
+per.name="Krishnakant";
+per.age=32;
+per.isMarried=true;
+per.address={};
+per.address.street="Vijay nagar";
+per['address']['flatNo']=33;
+// per.address.flatNo=33;
+// console.log(per["isMarried"])
+console.log(per);
