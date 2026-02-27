@@ -35,4 +35,5 @@ const person={
 };
 for(let x in person){
     console.log("person details:"+x+":"+person[x])
+    // console.log("person details:" + x +":" + person.x)           // this is also method to access value in object
 }
